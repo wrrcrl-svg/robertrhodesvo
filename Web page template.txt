@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Rhodes Sr. | Voice Actor</title> <!--[span_1](start_span)[span_1](end_span) -->
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --text-color: #212529;
+            --primary-blue: #1b2a4a;
+            --accent-maroon: #721c24;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary-blue), #0f172a);
+            color: white;
+            padding: 60px 20px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .hero h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            margin: 0 0 20px 0;
+        }
+
+        .bio {
+            max-width: 600px;
+            font-style: italic;
+            border-left: 4px solid var(--accent-maroon);
+            padding-left: 15px;
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        /* Main Sections */
+        .section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .section h2 {
+            color: var(--primary-blue);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Buttons & Links */
+        .btn-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            text-align: center;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-audio {
+            background-color: #ff5500; /* SoundCloud Orange */
+            color: white;
+            grid-column: 1 / -1; /* Make audio sample prominent */
+            font-size: 1.1rem;
+        }
+
+        .btn-audio:hover { background-color: #e04b00; }
+
+        .btn-platform {
+            background-color: var(--primary-blue);
+            color: white;
+        }
+
+        .btn-platform:hover { background-color: var(--accent-maroon); }
+
+        /* Contact Section */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .contact-item {
+            font-size: 1.1rem;
+        }
+
+        .contact-item a {
+            color: var(--accent-maroon);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-item a:hover { text-decoration: underline; }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            .section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Hero / Profile Header -->
+        <header class="hero">
+            <h1>Robert Rhodes Sr.</h1> <!--[span_2](start_span)[span_2](end_span) -->
+            <p>Professional Voice Actor</p> <!--[span_3](start_span)[span_3](end_span) -->
+            <div class="bio">
+                "I retired from the electrical contracting business in 2011 and have been doing voice acting ever since." <!--[span_4](start_span)[span_4](end_span) -->
+            </div>
+        </header>
+
+        <!-- Audio Demos -->
+        <section class="section">
+            <h2>Voice-Over Demos</h2>
+            <div class="btn-container">
+                <a href="https://soundcloud.com/robert-rhodes-sr/hoping-this-is-not-the-last-time-vo-music?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing&si=2c9d10e51f324b41a7076900aeee5ae1" target="_blank" class="btn btn-audio"> <!--[span_5](start_span)[span_5](end_span) -->
+                    🎵 Listen to Voice-Over Sample on SoundCloud
+                </a>
+            </div>
+        </section>
+
+        <!-- Industry Portfolios -->
+        <section class="section">
+            <h2>Casting Profiles</h2>
+            <p>View my verified industry profiles and availability across major platforms:</p>
+            <div class="btn-container">
+                <a href="https://www.mandy.com/us/v/robert-rhodes" target="_blank" class="btn btn-platform">Mandy Profile</a> <!--[span_6](start_span)[span_6](end_span) -->
+                <a href="https://www.backstage.com/u/robert-rhodes-1/" target="_blank" class="btn btn-platform">Backstage Profile</a> <!--[span_7](start_span)[span_7](end_span) -->
+                <a href="https://talent.allcasting.com/profile/ROBERTRHODESVO/info" target="_blank" class="btn btn-platform">AllCasting Profile</a> <!--[span_8](start_span)[span_8](end_span) -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <h2>Get In Touch</h2>
+            <p>Available for commercial, narration, animation, and corporate VO projects. Reach out directly via phone or email:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>Email:</strong> <a href="mailto:wrrcrl@gmail.com">wrrcrl@gmail.com</a> <!--[span_9](start_span)[span_9](end_span) -->
+                </div>
+                <div class="contact-item">
+                    <strong>Phone:</strong> <a href="tel:+19084208653">1-908-420-8653</a> <!--[span_10](start_span)[span_10](end_span) -->
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
